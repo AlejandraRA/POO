@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="571.0" prefWidth="1049.0" style="-fx-background-image: url('file:fondo.jpg');" stylesheets="@../../../../../Desktop/bootstrap-4.3.1-dist/css/bootstrap.min.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="app.FXMLDocumentController">
+   <children>
+      <TextField layoutX="345.0" layoutY="255.0" prefHeight="31.0" prefWidth="341.0" promptText="Usuario" />
+      <PasswordField layoutX="345.0" layoutY="345.0" prefHeight="31.0" prefWidth="341.0" promptText="Contraseña" />
+      <Button layoutX="446.0" layoutY="427.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="158.0" style="-fx-border-radius: 50px;" text="Entrar" textFill="#1b1a1a">
+         <styleClass>
+            <String fx:value=".button" />
+            <String fx:value=".btn-primary" />
+         </styleClass>
+         <stylesheets>
+            <URL value="@../../../../../Desktop/bootstrap-4.3.1-dist/css/bootstrap.min.css" />
+            <URL value="@../../../../../Desktop/bootstrap-4.3.1-dist/css/bootstrap.css" />
+         </stylesheets>
+      </Button>
+   </children>
+</AnchorPane>
