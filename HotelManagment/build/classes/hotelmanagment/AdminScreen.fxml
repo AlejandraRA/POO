@@ -1,11 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="hotelmanagment.AdminScreenController">
+<StackPane fx:id="stackepane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="730.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hotelmanagment.AdminScreenController">
    <children>
-      <Label layoutX="286.0" layoutY="192.0" text="Admin" />
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="730.0" prefWidth="1366.0" ">
+         <children>
+            <Pane fx:id="panel1" layoutX="236.0" layoutY="136.0" onMouseEntered="#hover_1" onMouseExited="#exited_1" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="50.0" layoutY="35.0" onMouseClicked="#Home" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/010-home.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="72.0" layoutY="143.0" text="INICIO" textOverrun="CLIP">
+                     <font>
+                        <Font name="Agency FB" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="panel2" layoutX="536.0" layoutY="136.0" onMouseEntered="#hover_2" onMouseExited="#exited_2" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="50.0" layoutY="35.0" onMouseClicked="#Empleados" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/002-businessman.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="56.0" layoutY="141.0" text="EMPLEADOS" textOverrun="CLIP">
+                     <font>
+                        <Font name="Agency FB" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="panel3" layoutX="828.0" layoutY="136.0" onMouseEntered="#hover_3" onMouseExited="#exited_3" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="50.0" layoutY="35.0" onMouseClicked="#Clientes" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/005-user.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="61.0" layoutY="142.0" text="CLIENTES" textOverrun="CLIP">
+                     <font>
+                        <Font name="Agency FB" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="panel4" layoutX="388.0" layoutY="391.0" onMouseEntered="#hover_4" onMouseExited="#exited_4" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="50.0" layoutY="35.0" onMouseClicked="#Salir" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/001-exit-1.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="41.0" layoutY="148.0" text="CERRAR SESIÓN" textOverrun="CLIP">
+                     <font>
+                        <Font name="Agency FB" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="panel5" layoutX="683.0" layoutY="400.0" onMouseClicked="#CerrarS" onMouseEntered="#hover_5" onMouseExited="#exited_5" prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="50.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/004-direction.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="79.0" layoutY="139.0" text="SALIR" textOverrun="CLIP">
+                     <font>
+                        <Font name="Agency FB" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
    </children>
-</AnchorPane>
+</StackPane>

@@ -3,7 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/david/OneDrive/Escritorio/Repositorios/POO/HotelManagment/src/hotelmanagment/DBConnection.java</file>
+            <file>file:/C:/Users/Alejandra/Documents/POO/HotelManagment/src/hotelmanagment/AdminScreenController.java</file>
+            <file>file:/C:/Users/Alejandra/Documents/POO/HotelManagment/src/hotelmanagment/HabitacionScreen.fxml</file>
+            <file>file:/C:/Users/Alejandra/Documents/POO/HotelManagment/src/hotelmanagment/HabitacionScreenController.java</file>
+            <file>file:/C:/Users/Alejandra/Documents/POO/HotelManagment/src/hotelmanagment/ReservacionScreen.fxml</file>
+            <file>file:/C:/Users/Alejandra/Documents/POO/HotelManagment/src/hotelmanagment/LoginScreen.fxml</file>
+            <file>file:/C:/Users/Alejandra/Documents/POO/HotelManagment/src/hotelmanagment/HomeScreen.fxml</file>
+            <file>file:/C:/Users/Alejandra/Documents/POO/HotelManagment/src/hotelmanagment/AdminScreen.fxml</file>
+            <file>file:/C:/Users/Alejandra/Documents/POO/HotelManagment/src/hotelmanagment/HomeScreenController.java</file>
         </group>
     </open-files>
 </project-private>
